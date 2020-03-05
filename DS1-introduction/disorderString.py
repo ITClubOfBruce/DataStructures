@@ -81,7 +81,7 @@ def solutions3(s1,s2):
     alist1 = list(s1)
     alist2 = list(s2)
 
-    # 排序   排序通常复杂度 O(n^2)或者 O(logn)
+    # 排序   排序通常复杂度 O(n^2)或者 O(nlogn)
     alist1.sort()
     alist2.sort()
     
