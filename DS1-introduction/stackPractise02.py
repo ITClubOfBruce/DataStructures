@@ -40,6 +40,8 @@ def divideBase(desNumber,base):
     
     return binString
 
-print(divideBase(233,2))
-print(divideBase(233,8))
-print(divideBase(233,16))
+# print(divideBase(233,2))
+# print(divideBase(233,8))
+# print(divideBase(233,16))
+print(divideBase(769,2))
+print(divideBase(769,16))
