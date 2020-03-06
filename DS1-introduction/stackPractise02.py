@@ -44,4 +44,4 @@ def divideBase(desNumber,base):
 # print(divideBase(233,8))
 # print(divideBase(233,16))
 print(divideBase(769,2))
-print(divideBase(769,16))
+print(divideBase(1453,16))
