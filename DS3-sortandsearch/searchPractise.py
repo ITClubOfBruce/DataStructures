@@ -79,19 +79,24 @@
 # print(binarySearch(testList,3))
 
 #  递归实现二分查找
-def binarySearch(alist,item):
-    if len(alist) == 0:
-        return False
-    midpoint = len(alist)//2
-    if alist[midpoint] == item:
-        return True
-    else:
-        if alist[midpoint] > item:
-            return binarySearch(alist[:midpoint],item)
-        else:
-            return binarySearch(alist[midpoint+1:],item)
+# def binarySearch(alist,item):
+#     if len(alist) == 0:
+#         return False
+#     midpoint = len(alist)//2
+#     if alist[midpoint] == item:
+#         return True
+#     else:
+#         if alist[midpoint] > item:
+#             return binarySearch(alist[:midpoint],item)
+#         else:
+#             return binarySearch(alist[midpoint+1:],item)
 
-testList = [0,1,2,8,13,17,19,32,42]
-print(binarySearch(testList,13))
+# testList = [0,1,2,8,13,17,19,32,42]
+# print(binarySearch(testList,13))
 
 # n/2   n/4   n/8 ....   n/2^i   O(logn)
+
+
+'''
+    Hash查找
+'''
